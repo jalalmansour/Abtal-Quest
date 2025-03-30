@@ -2,7 +2,7 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  Plant, // <-- Changed from Plant to Plant
+  Sprout , // <-- Changed from Sprout  to Sprout 
   LucideIcon,
   Medal,
   Sparkles,
@@ -58,12 +58,12 @@ export default function WalkthroughSection() {
           </p>
         </div>
 
-        <Tabs defaultValue="Plant" className="w-full max-w-5xl mx-auto">
+        <Tabs defaultValue="Sprout " className="w-full max-w-5xl mx-auto">
           <div className="flex justify-center mb-12" data-aos="fade-up">
             <TabsList className="grid sm:grid-cols-2 md:grid-cols-4 gap-2">
-              <TabsTrigger value="Plant" className="text-base py-3 flex flex-col items-center">
-                <Plant className="mb-1 h-5 w-5" />
-                <span>VIP Plant</span>
+              <TabsTrigger value="Sprout " className="text-base py-3 flex flex-col items-center">
+                <Sprout  className="mb-1 h-5 w-5" />
+                <span>VIP Sprout </span>
               </TabsTrigger>
               <TabsTrigger value="challenges" className="text-base py-3 flex flex-col items-center">
                 <ListTodo className="mb-1 h-5 w-5" />
@@ -80,15 +80,15 @@ export default function WalkthroughSection() {
             </TabsList>
           </div>
 
-          <TabsContent value="Plant">
+          <TabsContent value="Sprout ">
             <TabContent
-              title="The VIP Plant: Mindset Development"
-              description="The VIP Plant is a special virtual space where children develop the mental frameworks and mindset needed for real-world resilience. Here, kids engage with interactive content that teaches them how to approach challenges with a growth mindset."
-              icon={<Plant className="h-8 w-8 text-orange-500" />}
+              title="The VIP Sprout : Mindset Development"
+              description="The VIP Sprout  is a special virtual space where children develop the mental frameworks and mindset needed for real-world resilience. Here, kids engage with interactive content that teaches them how to approach challenges with a growth mindset."
+              icon={<Sprout  className="h-8 w-8 text-orange-500" />}
               content={
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-border/50 p-6 card-3d">
                   <div className="absolute -top-4 -right-4 bg-orange-500 text-white text-sm font-bold py-1 px-3 rounded-full shadow-md">
-                    VIP Plant
+                    VIP Sprout 
                   </div>
 
                   <div className="grid grid-cols-2 gap-4 mb-4">
@@ -334,7 +334,7 @@ export default function WalkthroughSection() {
                       </div>
 
                       <div className="flex justify-between items-center">
-                        <span className="text-sm">VIP Plant Completion</span>
+                        <span className="text-sm">VIP Sprout  Completion</span>
                         <span className="font-bold">4/5 lessons</span>
                       </div>
                       <div className="h-2 w-full bg-gray-100 dark:bg-gray-600 rounded-full">
