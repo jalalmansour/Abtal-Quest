@@ -45,7 +45,7 @@ export default function StorySection() {
                       <p className="text-sm italic text-muted-foreground">
                         "We saw children becoming increasingly addicted to digital devices, but the problem wasn't technology itself—it was how technology was being used."
                       </p>
-                      <p className="text-xs mt-2 font-medium">— Jalal Mansour, Co-founder</p>
+                      { /*<p className="text-xs mt-2 font-medium">— Jalal Mansour, Co-founder</p>*/}
                     </div>
                   </motion.div>
                 </div>
