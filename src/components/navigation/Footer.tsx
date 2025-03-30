@@ -100,7 +100,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Education Avenue, Digital City, 12345
+                  007,Hamriya | Meknes, 50000
                 </span>
               </li>
               <li className="flex items-center">
@@ -111,8 +111,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-primary shrink-0" />
-                <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+212551234567" className="text-muted-foreground hover:text-primary transition-colors">
+                  +212 614 75 11 35
                 </a>
               </li>
             </ul>
