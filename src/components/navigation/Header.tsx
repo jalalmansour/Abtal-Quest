@@ -14,9 +14,9 @@ const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "How It Works", path: "/how-it-works" },
+  { name: "Team", path: "/team" }, // Replaced "Partnerships" with "Team"
   { name: "Join The Quest", path: "/join" },
   { name: "Marketplace", path: "/marketplace" },
-  { name: "Partnerships", path: "/partnerships" },
   { name: "Contact", path: "/contact" },
 ];
 
