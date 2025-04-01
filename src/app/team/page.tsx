@@ -1,5 +1,5 @@
 import PageLayout from "@/components/layout/PageLayout";
-import TeamContent from "@/components/team/TeamContent"; // Import the new client component
+import TeamContent from "./TeamContent"; // Corrected import path
 
 // Keep metadata export here - this file is now a Server Component
 export const metadata = {
