@@ -61,7 +61,7 @@ const teamMembers: TeamMember[] = [ // Your team members data remains the same
 // Removed metadata export from here - as it's a Client Component now
 
 export default function TeamPage() {
-    const { t } = useTranslation(); // Keep if you need translations
+  
     const teamRef = useRef<HTMLDivElement>(null);
     const isTeamInView = useInView(teamRef, { once: true, amount: 0.3 });
 
