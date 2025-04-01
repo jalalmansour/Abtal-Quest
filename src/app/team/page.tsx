@@ -1,7 +1,7 @@
 
 
 import { motion, useInView } from "framer-motion";
-import { useTranslation } from "@/i18n/i18n-provider";
+
 import PageLayout from "@/components/layout/PageLayout";
 import { LucideUsers, LucideHeart, LucideLightbulb } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card"; // Assuming you have Card and CardContent in your UI
