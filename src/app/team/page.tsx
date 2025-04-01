@@ -1,5 +1,5 @@
 
-import React, { useRef } from "react";
+
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "@/i18n/i18n-provider";
 import PageLayout from "@/components/layout/PageLayout";
