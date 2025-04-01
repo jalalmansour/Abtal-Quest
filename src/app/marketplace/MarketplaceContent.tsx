@@ -6,7 +6,9 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Star, Zap, ToyBrick, TShirt, Gift, ArrowRight, Coins } from 'lucide-react';
+// --- V V V --- ADD Medal HERE --- V V V ---
+import { Star, Zap, ToyBrick, TShirt, Gift, ArrowRight, Coins, Medal, Lock, Heart, BookOpen, BarChart3, Users, ListTodo, Sparkles, Trophy } from 'lucide-react';
+// --- ^ ^ ^ --- ADD Medal HERE --- ^ ^ ^ ---
 import Image from 'next/image'; // Using Next/Image
 
 // Placeholder data for rewards - Replace with actual data fetching
@@ -188,3 +190,24 @@ export default function MarketplaceContent() {
     </>
   );
 }
+
+// --- NO CHANGES NEEDED in src/app/marketplace/page.tsx ---
+// It should already look like this:
+/*
+// src/app/marketplace/page.tsx
+import PageLayout from "@/components/layout/PageLayout";
+import MarketplaceContent from "./MarketplaceContent"; // Import the client component
+
+export const metadata = {
+    title: "Reward Zone | AbtalQuest Marketplace",
+    description: "Spend your hard-earned AbtalQuest points on cool avatar items, real-world rewards, and digital goodies in the marketplace.",
+};
+
+export default function MarketplacePage() {
+    return (
+        <PageLayout>
+            <MarketplaceContent />
+        </PageLayout>
+    );
+}
+*/
