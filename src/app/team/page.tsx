@@ -1,4 +1,3 @@
-"use client";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "@/i18n/i18n-provider"; // Assuming you have i18n setup, if not, remove this line and related `t` function
 import PageLayout from "@/components/layout/PageLayout";
