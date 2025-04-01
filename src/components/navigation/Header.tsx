@@ -11,13 +11,14 @@ import {
 } from "@/components/ui/sheet";
 
 const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "How It Works", path: "/how-it-works" },
-    { name: "Team", path: "/team" },
-    { name: "Join The Quest", path: "/join" }, // Make sure this is present and correct
-    { name: "Marketplace", path: "/marketplace" },
-    { name: "Contact", path: "/contact" },
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "How It Works", path: "/how-it-works" },
+  { name: "Team", path: "/team" }, 
+  { name: "Join The Quest", path: "/join" },
+  { name: "Marketplace", path: "/marketplace" },
+  { name: "Partnerships", path: "/partnerships" }, // If you want to REMOVE Partnerships, delete this line
+  { name: "Contact", path: "/contact" },
 ];
 
 export default function Header() {
